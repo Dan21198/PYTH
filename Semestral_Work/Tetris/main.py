@@ -5,13 +5,11 @@ from board import *
 from direction import *
 from rotation import *
 
-# Bools that control game state
 isOpen = True
 newGame = True
 gameOver = False
 paused = False
 
-# Create game window and clock
 window = Window()
 draw = Draw(window)
 draw.createScreen()
